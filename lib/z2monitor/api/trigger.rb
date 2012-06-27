@@ -20,8 +20,8 @@ module Zabbix
       request = {
         'method' => 'trigger.get',
         'params' => {
-          'sortfield' => 'priority',
-          'sortorder' => 'desc',
+          'sortfield' => ['priority', 'lastchange'],
+          'sortorder' => ['desc', 'desc'],
           'templated' => '0',
           'filter' => { 'value' => '1', 'status' => '0' },
           'expandData' => 'host',
