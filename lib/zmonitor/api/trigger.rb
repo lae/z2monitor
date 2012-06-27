@@ -26,8 +26,8 @@ module Zabbix
           'filter' => { 'value' => '1', 'status' => '0' },
           'expandData' => 'host',
           'expandDescription' => '1',
-          'select_hosts' => 'extend',
-          'select_items' => 'extend',
+          'selectHosts' => 'extend',
+          'selectItems' => 'extend',
           'output' => 'extend'
         }
       }
