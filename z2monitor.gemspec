@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'z2monitor'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2012-06-26'
   s.summary     = 'Zabbix CLI dashboard'
   s.description = 'A command line interface for viewing alerts from a Zabbix instance (for Zabbix 2.0)'
