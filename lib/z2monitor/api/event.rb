@@ -22,7 +22,7 @@ module Zabbix
         'params' =>
         {
           'triggerids' => [triggerid.to_s],
-          'sortfield' => 'clock',
+          'sortfield' => 'eventid',
           'sortorder' => 'DESC',
           'limit' => '1',
           'output' => 'extend'
